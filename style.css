@@ -1,0 +1,374 @@
+nav {
+  background: whitesmoke;
+  height: 50px;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  padding: 8px 12px;
+  margin: auto;
+  background-attachment: scroll;
+  background-size: cover;
+  color: black;
+}
+
+footer {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: lavenderblush;
+  color: #010102;
+  text-align: center;
+  opacity: 0.6;
+  width: 100%;
+  height: 50%;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: black;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  color: orangered;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  vertical-align: middle; 
+  width: 100%;
+  font-size: 20px;
+  text-align: inherit;
+  background-color: lavenderblush;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(119, 114, 114);
+  text-align: center;
+  line-height: normal;
+  word-spacing: normal;
+  margin-top: 4.5%;
+  margin-bottom: 10%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background-color: orangered;
+}
+
+
+main {
+  text-align: center;
+  vertical-align: middle;
+}
+
+main a {
+  text-decoration: none;
+  color: navy;
+  line-height: normal;
+}
+
+.logo-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: unset;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+  font-size: medium;
+}   
+
+li a:hover:not(.active) {
+  background-color: orangered;
+}
+
+.active {
+  background-color: #010102;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align-last: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 90px;
+}
+
+.title h1 {
+  color: black;
+  font-size: 80px;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  margin-top: 5%;
+}
+
+.button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: orangered;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.btn {
+  border: 2px solid rgb(145, 127, 127);
+  padding: 10px 30px;
+  color: rgb(107, 61, 61);
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  background-color: orangered;
+  color: 000;
+}
+
+#box {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 400px;
+  border: 5px solid rgb(233, 122, 82);
+  padding: 50px;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  -webkit-box-align:stretch;
+  }
+
+#box1 {
+  background-color:  whitesmoke;
+  width: 30%;
+  height: fit-content;
+  border: 2px solid rgb(233, 122, 82);
+  text-align: justify;
+  color: black;
+  margin-top: auto;
+  }
+
+#box2 {
+  background-color: whitesmoke;
+  width: 500px;
+  height: fit-content;
+  border: 5px solid rgb(233, 122, 82);
+  padding: 50px;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  -webkit-box-align:stretch;
+}
+
+#box3 {
+  background-color: whitesmoke;
+  color: black;
+  width: 300px;
+  height: fit-content;
+  border: 5px solid rgb(233, 122, 82);
+  padding: 20px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  -webkit-box-align:stretch;
+}
+
+#box3 a {
+  color: #010102;
+  line-height: 80%;
+  text-align: left;
+}
+
+#box4 {
+  background-color: whitesmoke;
+  color: black;
+  width: 200px;
+  height: fit-content;
+  border: 5px solid rgb(233, 122, 82);
+  padding: 20px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-box-align:stretch;
+}
+
+#box5 {
+  background-color: whitesmoke;
+  color: black;
+  width: 500px;
+  height: fit-content;
+  border: 5px solid rgb(233, 122, 82);
+  padding: 20px;
+  padding-bottom: 5px;
+  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-box-align:stretch;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 13px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #141313;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+* {
+  box-sizing: border-box;
+  border: 2 solid darkgrey;
+  }
+  
+.box {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 700px;
+  border-color: solid grey;
+  border-style: double;
+  margin: auto;
+  }
+  
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+  
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+  
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
